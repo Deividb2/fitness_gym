@@ -44,7 +44,7 @@ export default function Personal() {
             <section className='h-auto bg-preto-100 flex flex-col items-center gap-10 py-20 px-20 sm:px-40'>
                 <h2 className='text-2xl text-amarelo-100 font-bold font-raleway'>Conheça alguns dos nossos personal trainers</h2>
 
-                <div className='flex flex-col gap-5 md:flex-row md:flex-wrap md:justify-center font-raleway text-branco-300'>
+                <div className='flex flex-col gap-20 pb-4 sm:gap-5 md:flex-row md:flex-wrap md:justify-center font-raleway text-branco-300'>
                     {profissionais.map((elemento, index) => <Treiners key={index} personal={elemento} />)}
                 </div>
             </section>
