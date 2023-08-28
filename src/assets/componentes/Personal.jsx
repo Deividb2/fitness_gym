@@ -7,7 +7,7 @@ import ImgSandro from '../imgs/sandro_tavares.jpg'
 
 const Treiners = ({personal}) => {
     return (
-        <div className='h-72 sm:w-56 flex flex-col justify-center items-center gap-5'>
+        <div className='sm:h-72 sm:w-56 flex flex-col justify-center items-center gap-5'>
                 <img src={personal.foto} className='w-36 h-36 border-4 border-amarelo-100 rounded-full
                             md:w-40 md:h-40 bg-imgItalo bg-no-repeat bg-center bg-cover'></img>
             <p className='text-center h-24'>{personal.descricao}</p>
@@ -41,7 +41,7 @@ export default function Personal() {
 
     return (
         <>
-            <section className='h-auto bg-preto-100 flex flex-col items-center gap-10 py-20 px-40'>
+            <section className='h-auto bg-preto-100 flex flex-col items-center gap-10 py-20 px-20 sm:px-40'>
                 <h2 className='text-2xl text-amarelo-100 font-bold font-raleway'>Conheça alguns dos nossos personal trainers</h2>
 
                 <div className='flex flex-col gap-5 md:flex-row md:flex-wrap md:justify-center font-raleway text-branco-300'>
