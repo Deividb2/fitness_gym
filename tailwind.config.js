@@ -53,6 +53,8 @@ export default {
       },
       backgroundImage: {
         'imgFundo': "url('./src/assets/imgs/academiaFundo.jpg')",
+        'imgBanner': "url('./src/assets/imgs/banner2.png')",
+        
         'imgItalo': "url('./src/assets/imgs/italo_melo.jpg')",
         'imgKarolina': "url('./src/assets/imgs/karolina_grabowska.jpg')",
         'imgMikhail': "url('./src/assets/imgs/mikhail_nilov.jpg')",
@@ -63,14 +65,6 @@ export default {
         'imgCardio': "url('./src/assets/imgs/cardio.jpg')",
         'imgBoxe': "url('./src/assets/imgs/boxe.jpg')",
         'imgGinastica': "url('./src/assets/imgs/ginastica.jpg')",
-
-        'imgBanner1': "url('./src/assets/imgs/banner1.png')",
-        'imgBanner2': "url('./src/assets/imgs/banner2.png')",
-        'imgBanner21': "url('./src/assets/imgs/banner21.png')",
-        'imgBanner22': "url('./src/assets/imgs/banner22.png')",
-        'imgBanner23': "url('./src/assets/imgs/banner23.png')",
-        'imgBanner24': "url('./src/assets/imgs/banner24.png')",
-        'imgBanner25': "url('./src/assets/imgs/banner25.png')"
       },
       fontFamily: {
         'inter': 'Inter, sans-serif',

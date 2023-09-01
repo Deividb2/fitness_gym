@@ -1,31 +1,22 @@
 import React from 'react'
 import './index.css'
-import Cabecalho from './assets/componentes/Cabecalho'
-import Banner from './assets/componentes/Banner'
-import Personal from './assets/componentes/Personal'
-import TreinosExclusivos from './assets/componentes/TreinosExclusivos'
-import Whatsapp from './assets/componentes/Whatsapp'
-import Contato from './assets/componentes/Contato'
-import Rodape from './assets/componentes/Rodape'
+import Home from './pages/Home/Home'
+import Servicos from './pages/Servicos/Servicos'
 
-import Cabecalho2 from './assets/componentes/Cabecalho2'
-import Conteudo from './assets/componentes/Conteudo'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 export default function App() {
 
   return (
-    <>
-      <Cabecalho/>
-      <Banner />
-      <TreinosExclusivos />
-      <Personal />
-      <Contato />
-      <Whatsapp />
-      <Rodape />
+    <Router>
+      <Routes>
+        <Route path='/' element={<Home />} />
+      </Routes>
 
-      {/* CABEÇALHO E BANNER RESERVA */}
-      {/* <Cabecalho2 /> */}
-      {/* <Conteudo /> */}
-    </>
+      <Routes>
+        <Route path='/servicos' element={<Servicos />} />
+      </Routes>
+
+    </Router>
   )
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Cabecalho() {
 
@@ -10,8 +11,14 @@ export default function Cabecalho() {
                 <nav>
                     <ul className='flex flex-col gap-6 items-center uppercase font-bold rounded-sm text-branco-100
                         lg:flex-row lg:h-12 lg:gap-0'>
-                        <li className='flex items-center h-full px-4 hover:underline text-amarelo-100'><a href="#">Home</a></li>
-                        <li className='flex items-center h-full px-4 hover:underline text-branco-500'><a href="#">Serviços</a></li>
+                        <li className='flex items-center h-full px-4 hover:underline text-amarelo-100'>
+                            <Link to='/'>Home</Link>                        
+                        </li>
+
+                        <li className='flex items-center h-full px-4 hover:underline text-branco-500'>
+                            <Link to='/servicos'>Serviços</Link>
+                        </li>
+                        
                         <li className='flex items-center h-full px-4 hover:underline text-branco-500'><a href="#">Unidades</a></li>
                         <li className='flex items-center h-full px-4 hover:underline text-branco-500'><a href="#">Contato</a></li>
                         <li className='flex items-center h-full px-4 hover:underline text-branco-500'><a href="#">Seja um franqueado</a></li>

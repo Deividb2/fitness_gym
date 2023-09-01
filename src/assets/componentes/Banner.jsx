@@ -4,7 +4,7 @@ export default function Banner() {
 
     return (
         <>
-            <section className='h-alturaBanner bg-imgBanner2 bg-no-repeat bg-bottom bg-cover'></section>
+            <section className='h-alturaBanner bg-imgBanner bg-no-repeat bg-bottom bg-cover'></section>
         </> 
     )
 }
