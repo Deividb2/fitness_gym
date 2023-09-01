@@ -53,7 +53,7 @@ export default {
       },
       backgroundImage: {
         'imgFundo': "url('./src/assets/imgs/academiaFundo.jpg')",
-        'imgBanner': "url('./src/assets/imgs/banner2.png')",
+        'imgBanner': "url('./src/assets/imgs/banner.png')",
         
         'imgItalo': "url('./src/assets/imgs/italo_melo.jpg')",
         'imgKarolina': "url('./src/assets/imgs/karolina_grabowska.jpg')",
