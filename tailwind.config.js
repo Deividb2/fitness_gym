@@ -52,13 +52,13 @@ export default {
         }
       },
       backgroundImage: {
-        'imgFundo': "url('./public/imgs/academiaFundo.jpg')",
-        'imgBanner': "url('./public/imgs/banner.png')",
+        'imgFundo': "url('./public/assets/imgs/academiaFundo.jpg')",
+        'imgBanner': "url('./public/assets/imgs/banner.png')",
 
-        'imgMusculacao': "url('./public/imgs/musculacao.jpg')",
-        'imgCardio': "url('./public/imgs/cardio.jpg')",
-        'imgBoxe': "url('./public/imgs/boxe.jpg')",
-        'imgGinastica': "url('./public/imgs/ginastica.jpg')",
+        'imgMusculacao': "url('./public/assets/imgs/musculacao.jpg')",
+        'imgCardio': "url('./public/assetsimgs/cardio.jpg')",
+        'imgBoxe': "url('./public/assets/imgs/boxe.jpg')",
+        'imgGinastica': "url('./public/assets/imgs/ginastica.jpg')",
       },
       fontFamily: {
         'inter': 'Inter, sans-serif',

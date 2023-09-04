@@ -1,8 +1,8 @@
 import React from 'react'
-import ImgItalo from '../../../public/imgs/italo_melo.jpg'
-import ImgKarolina from '../../../public/imgs/karolina_grabowska.jpg'
-import ImgMihail from '../../../public/imgs/mikhail_nilov.jpg'
-import ImgSandro from '../../../public/imgs/sandro_tavares.jpg'
+import ImgItalo from '../../../public/assets/imgs/italo_melo.jpg'
+import ImgKarolina from '../../../public/assets/imgs/karolina_grabowska.jpg'
+import ImgMihail from '../../../public/assets/imgs/mikhail_nilov.jpg'
+import ImgSandro from '../../../public/assets/imgs/sandro_tavares.jpg'
 
 const Treiners = ({personal}) => {
     return (

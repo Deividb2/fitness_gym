@@ -74,7 +74,6 @@ export default function App() {
             titulo: 'Musculação',
             intensidade: 'Alta',
             complexidade: 'Baixa',
-            // descricao: 'Oferecemos um ambiente com equipamentos de última geração para você alcançar seus objetivos. Nossos treinadores especializados irão criar programas personalizados que se adaptam ao seu nível de condicionamento e metas individuais. Nossa academia é o lugar ideal para você conquistar um corpo mais forte, saudável e confiante. Venha se desafiar, se superar e transformar seu corpo na academia que acredita no seu potencial.'
             descricao: 'Nossa academia é o lugar ideal para você conquistar um corpo mais forte, saudável e confiante. Venha se desafiar, se superar e transformar seu corpo na academia que acredita no seu potencial.'
         },
         {
