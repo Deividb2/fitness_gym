@@ -1,9 +1,8 @@
 import React from 'react'
-import ImgItalo from '../imgs/italo_melo.jpg'
-import ImgKarolina from '../imgs/karolina_grabowska.jpg'
-import ImgMihail from '../imgs/mikhail_nilov.jpg'
-import ImgMonstera from '../imgs/monstera.jpg'
-import ImgSandro from '../imgs/sandro_tavares.jpg'
+import ImgItalo from '../../../public/imgs/italo_melo.jpg'
+import ImgKarolina from '../../../public/imgs/karolina_grabowska.jpg'
+import ImgMihail from '../../../public/imgs/mikhail_nilov.jpg'
+import ImgSandro from '../../../public/imgs/sandro_tavares.jpg'
 
 const Treiners = ({personal}) => {
     return (
@@ -29,10 +28,6 @@ export default function Personal() {
             foto: ImgMihail,
             descricao: 'Especializada em ajudar os mais diversos clientes a atingir seus objetivos de perda de peso por meio de treinamento físico e orientação nutricional.'
         },
-        // {
-        //     foto: ImgMonstera,
-        //     descricao: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.'
-        // },
         {
             foto: ImgSandro,
             descricao: 'Especializado em treinamento de força e ganho muscular. Trabalha com levantamento de peso e resistência para te ajudar a desenvolver músculos e melhorar a composição corporal.'

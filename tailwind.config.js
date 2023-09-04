@@ -52,19 +52,13 @@ export default {
         }
       },
       backgroundImage: {
-        'imgFundo': "url('./src/assets/imgs/academiaFundo.jpg')",
-        'imgBanner': "url('./src/assets/imgs/banner.png')",
-        
-        'imgItalo': "url('./src/assets/imgs/italo_melo.jpg')",
-        'imgKarolina': "url('./src/assets/imgs/karolina_grabowska.jpg')",
-        'imgMikhail': "url('./src/assets/imgs/mikhail_nilov.jpg')",
-        'imgMonstera': "url('./src/assets/imgs/monstera.jpg')",
-        'imgSandro': "url('./src/assets/imgs/sandro_tavares.jpg')",
+        'imgFundo': "url('./public/imgs/academiaFundo.jpg')",
+        'imgBanner': "url('./public/imgs/banner.png')",
 
-        'imgMusculacao': "url('./src/assets/imgs/musculacao.jpg')",
-        'imgCardio': "url('./src/assets/imgs/cardio.jpg')",
-        'imgBoxe': "url('./src/assets/imgs/boxe.jpg')",
-        'imgGinastica': "url('./src/assets/imgs/ginastica.jpg')",
+        'imgMusculacao': "url('./public/imgs/musculacao.jpg')",
+        'imgCardio': "url('./public/imgs/cardio.jpg')",
+        'imgBoxe': "url('./public/imgs/boxe.jpg')",
+        'imgGinastica': "url('./public/imgs/ginastica.jpg')",
       },
       fontFamily: {
         'inter': 'Inter, sans-serif',
