@@ -30,7 +30,7 @@ export default {
         preto: {
           100: '#000',
           200: 'rgba(0,0,0, 0.5)',
-          300: '#707070', 
+          300: '#707070',
           400: '#232323',
           500: '#333333'
         },
@@ -52,13 +52,13 @@ export default {
         }
       },
       backgroundImage: {
-        'imgFundo': "url('./public/assets/imgs/academiaFundo.jpg')",
-        'imgBanner': "url('./public/assets/imgs/banner.png')",
+        'imgFundo': "url('/assets/imgs/academiaFundo.jpg')",
+        'imgBanner': "url('/assets/imgs/banner.png')",
 
-        'imgMusculacao': "url('./public/assets/imgs/musculacao.jpg')",
-        'imgCardio': "url('./public/assets/imgs/cardio.jpg')",
-        'imgBoxe': "url('./public/assets/imgs/boxe.jpg')",
-        'imgGinastica': "url('./public/assets/imgs/ginastica.jpg')",
+        'imgMusculacao': "url('/assets/imgs/musculacao.jpg')",
+        'imgCardio': "url('/assets/imgs/cardio.jpg')",
+        'imgBoxe': "url('/assets/imgs/boxe.jpg')",
+        'imgGinastica': "url('/assets/imgs/ginastica.jpg')",
       },
       fontFamily: {
         'inter': 'Inter, sans-serif',

@@ -1,13 +1,13 @@
 import React from 'react'
-import ImgItalo from '../../../public/assets/imgs/italo_melo.jpg'
-import ImgKarolina from '../../../public/assets/imgs/karolina_grabowska.jpg'
-import ImgMihail from '../../../public/assets/imgs/mikhail_nilov.jpg'
-import ImgSandro from '../../../public/assets/imgs/sandro_tavares.jpg'
+import ImgItalo from '/assets/imgs/italo_melo.jpg'
+import ImgKarolina from '/assets/imgs/karolina_grabowska.jpg'
+import ImgMihail from '/assets/imgs/mikhail_nilov.jpg'
+import ImgSandro from '/assets/imgs/sandro_tavares.jpg'
 
-const Treiners = ({personal}) => {
+const Treiners = ({ personal }) => {
     return (
         <div className='sm:h-72 sm:w-56 flex flex-col justify-center items-center gap-5'>
-                <img src={personal.foto} className='w-36 h-36 border-4 border-amarelo-100 rounded-full
+            <img src={personal.foto} className='w-36 h-36 border-4 border-amarelo-100 rounded-full
                             md:w-40 md:h-40 bg-imgItalo bg-no-repeat bg-center bg-cover'></img>
             <p className='text-center h-24'>{personal.descricao}</p>
         </div>
