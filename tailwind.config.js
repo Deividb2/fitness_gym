@@ -56,7 +56,7 @@ export default {
         'imgBanner': "url('./public/assets/imgs/banner.png')",
 
         'imgMusculacao': "url('./public/assets/imgs/musculacao.jpg')",
-        'imgCardio': "url('./public/assetsimgs/cardio.jpg')",
+        'imgCardio': "url('./public/assets/imgs/cardio.jpg')",
         'imgBoxe': "url('./public/assets/imgs/boxe.jpg')",
         'imgGinastica': "url('./public/assets/imgs/ginastica.jpg')",
       },
